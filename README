@@ -1,0 +1,10 @@
+1: framework taken from Nexus; replaced res with SDK, since Nexus only
+   had hdpi
+2: apps are a mix of Nexus and SDK, since Nexus is hdpi only
+3: bin and lib are from Hero, with bits from Eris and Sprint. These are
+   STABLE on a 2.1 aosp ROM.
+
+ISSUES:
+Freeze after a few minutes/seconds. 
+WiFi switches on.
+Taskbar pulldown doesn't work.
