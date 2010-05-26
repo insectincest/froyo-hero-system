@@ -8,3 +8,8 @@ ISSUES:
 Freeze after a few minutes/seconds. 
 WiFi switches on.
 Taskbar pulldown doesn't work.
+
+I haven't had the time to look into the Kernel yet;
+The standard 568 and 1236 kernels work.
+Use those, or the 2.6.29 eris-reverse-patched
+
