@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+insmod /system/lib/modules/pppox.ko
+insmod /system/lib/modules/pppopns.ko
+insmod /system/lib/modules/pppolac.ko
+insmod /system/lib/modules/pppol2tp.ko
+insmod /system/lib/modules/arc4.ko
+insmod /system/lib/modules/ppp_mppe.ko
+insmod /system/lib/modules/tun.ko

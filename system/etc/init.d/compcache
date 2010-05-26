@@ -1,0 +1,8 @@
+#!/system/bin/sh
+# only enable compcache if a userinit was not activated
+if [ "`getprop cm.userinit.active`" != "1" ];
+then
+    echo "--- Enabling compcache";
+    /system/bin/rzscontrol /dev/block/ramzswap0 --init
+    swapon /dev/block/ramzswap0
+fi
